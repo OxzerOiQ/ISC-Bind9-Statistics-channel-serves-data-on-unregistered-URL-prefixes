@@ -76,8 +76,8 @@ compiled with libuv version: 1.48.0
 
 ## Screenshots / proof
 
-https://github-production-user-asset-6210df.s3.amazonaws.com/76553571/655099968-77ba101f-c52d-4db2-beba-78037a2fd71a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260919%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260919T124630Z&X-Amz-Expires=300&X-Amz-Signature=67c7c4cedfbbb1f2ac8b50dfb44f6426bebda9c7802ed468b64174a949337479&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng
-https://github.com/user-attachments/assets/9a11f518-cf9d-436e-bb27-96c2b1b6c4a6
+<img width="1900" height="892" alt="image" src="https://github.com/user-attachments/assets/d46aa962-3da1-4dc6-8df8-9ff502885cc9" />
+<img width="1132" height="712" alt="image" src="https://github.com/user-attachments/assets/8dafcf16-512f-4b4f-a47a-a127717d7e50" />
 
 ## Steps to reproduce
 
