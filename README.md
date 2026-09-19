@@ -3,7 +3,7 @@
 **Affected product:** ISC BIND 9 (`named`) — `statistics-channels` embedded HTTP server  
 **Affected code:** `lib/isc/httpd.c:767-773`  
 **Severity:** Low (Medium where path-based filtering is relied upon)  
-**Status:** Reported to ISC (confidential)
+**Status:** Reported to ISC (Fixed)
 
 > **Every claim below was independently
 > verified by me against a live `named` instance built from the current source
