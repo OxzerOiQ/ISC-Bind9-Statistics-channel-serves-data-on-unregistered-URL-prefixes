@@ -139,23 +139,6 @@ the root `/` and the empty-path default. Suggested regression checks: `/x`,
 `/j`, `/json/v`, `/bind`, `/xml/v3/EXTRA` → 404; all registered URLs → 200
 unchanged.
 
-## Suggested fix
-
-In `lib/isc/httpd.c`, the dispatch condition currently reads:
-
-```c
-if ((strncmp(path, u->url, path_len) == 0) ...)
-```
-
-Change it to require a full match on the **registered** URL length, e.g.:
-
-```c
-if ((strlen(u->url) == path_len) && (memcmp(path, u->url, path_len) == 0) ...)
-```
-
-After this check, the existing handler also compares against the empty string /
-root separately, so `/` must keep its special case.
-
 ## Disclosure timeline
 
 - **2026-09:** Discovered and verified against a live build
